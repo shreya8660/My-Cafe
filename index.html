@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cafe - Coffee Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="logo" data-route="home">
+                <div>☕</div>
+                <h1 class="cafe">My Cafe</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" data-route="home">Home</a></li>
+                    <li><a href="#" data-route="menu">Menu</a></li>
+                    <li><a href="#" data-route="blog">Blog</a></li>
+                    <li><a href="#" data-route="media">Media</a></li>
+                    <li><a href="#" data-route="contact">Contact</a></li>
+                    <li><a href="#" id="login-btn">Login</a></li>
+                </ul>
+            </nav>
+            <div class="search-icon">🔍</div>
+        </header>
+        
+        <!-- Home Page -->
+        <div class="page active" id="home-page">
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>FRESHLY ROASTED</h2>
+                        <h1>COFFEE</h1>
+                        <a href="#" class="btn" data-route="menu">Shop now</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="pics/12 foods that can help reduce the risk of dementia - Rest Less.jpeg" alt="Coffee cup">
+                    </div>
+                </div>
+                <div class="wave"></div>
+            </section>
+            
+            <section class="categories">
+                <div class="section-title">
+                    <h2>TOP CATEGORIES</h2>
+                    <p>Explore The Recent Most Bought Drinks This Week</p>
+                </div>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <img src="pics/Phân biệt các loại cà phê Ý đang HOT hiện nay - Wega Vietnam.jpeg" alt="Coffee Mocha">
+                        <div class="category-overlay">
+                            <h3>Coffee Mocha</h3>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="pics/download.jpeg" alt="Espresso Americano">
+                        <div class="category-overlay">
+                            <h3>Espresso Americano</h3>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="pics/A CUP OF CAPPUCCINO ISOLATED IN THE WHITE BACKGROUND WITH COFFEE BEANS _ Premium AI-generated image.jpeg" alt="Cappuccino">
+                        <div class="category-overlay">
+                            <h3>Cappuccino</h3>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="milkshakes">
+                <div class="section-title">
+                    <h2>TOP MILK SHAKES</h2>
+                    <p>Explore The Recent Most Bought Shakes This Week</p>
+                </div>
+                <div class="milkshake-grid">
+                    <div class="milkshake-card">
+                        <img src="pics/☕🍪 You Know You Can Make This at Home, Right_ 😍__This Mocha Cookie Crumble Frappuccino is a GAME CHANGER! 🍫❄️ Skip the coffee shop and make this deliciously creamy, chocolatey frappuccino right in your kitchen!_.jpeg" alt="Mocha Shake">
+                        <h3>Mocha Shake</h3>
+                        <span class="likes">👍 30 likes</span>
+                        <span class="price">$20.00</span>
+                        <a href="#" class="buy-btn">BUY NOW</a>
+                    </div>
+                    <div class="milkshake-card">
+                        <img src="pics/Earl Grey Lavender Milkshake - A Unique and Luxurious Dessert Drink.jpeg" alt="Lavender Shake">
+                        <h3>Lavender Shake</h3>
+                        <span class="likes">👍 30 likes</span>
+                        <span class="price">$20.00</span>
+                        <a href="#" class="buy-btn">BUY NOW</a>
+                    </div>
+                    <div class="milkshake-card">
+                        <img src="pics/Caramel milkshake _ Caramel Dream Shake _  Caramel Bliss Milkshake _  Creamy Caramel Delight.jpeg" alt="Caramel Shake">
+                        <h3>Caramel Shake</h3>
+                        <span class="likes">👍 30 likes</span>
+                        <span class="price">$20.00</span>
+                        <a href="#" class="buy-btn">BUY NOW</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="blogs">
+                <div class="section-title">
+                    <h2>LATEST BLOGS</h2>
+                    <p>Explore The Recent Most Bought Shakes This Week</p>
+                </div>
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <img src="pics/Tea & Coffee.jpeg" alt="Coffee blog">
+                        <div class="blog-content">
+                            <h3>Coffee Connoisseur</h3>
+                            <p>Discover the history of coffee from the birth-place of Arabica! On this journey, we'll discover how coffee has influenced world events and cultures worldwide.</p>
+                            <a href="#" class="read-more">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="pics/Cozy Up with a Rich Cup of Coffee Bliss.jpeg" alt="Coffee blog">
+                        <div class="blog-content">
+                            <h3>Coffee Connoisseur</h3>
+                            <p>Discover the history of coffee from the birth-place of Arabica! On this journey, we'll discover how coffee has influenced world events and cultures worldwide.</p>
+                            <a href="#" class="read-more">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="pics/Cozy Morning Routine_ Boost Productivity with Coffee  Natural Light.jpeg" alt="Coffee blog">
+                        <div class="blog-content">
+                            <h3>Coffee Connoisseur</h3>
+                            <p>Discover the history of coffee from the birth-place of Arabica! On this journey, we'll discover how coffee has influenced world events and cultures worldwide.</p>
+                            <a href="#" class="read-more">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Menu Page -->
+        <div class="page" id="menu-page">
+            <section class="menu-hero">
+                <div class="hero">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h2>OUR SELECTION</h2>
+                            <h1>MENU</h1>
+                        </div>
+                    </div>
+                    <div class="wave"></div>
+                </div>
+            </section>
+            
+            <section class="menu-items">
+                <div class="section-title">
+                    <h2>HOT DRINKS</h2>
+                </div>
+                <div class="category-grid">
+                    <div class="milkshake-card">
+                        <img src="pics/download.jpeg" alt="Espresso">
+                        <h3>Espresso</h3>
+                        <span class="price">$4.50</span>
+                        <a href="#" class="buy-btn" data-order="Espresso">ORDER NOW</a>
+                    </div>
+                    <div class="milkshake-card">
+                        <img src="./pics/A CUP OF CAPPUCCINO ISOLATED IN THE WHITE BACKGROUND WITH COFFEE BEANS _ Premium AI-generated image.jpeg" alt="Cappuccino">
+                        <h3>Cappuccino</h3>
+                        <span class="price">$5.50</span>
+                        <a href="#" class="buy-btn" data-order="Cappuccino">ORDER NOW</a>
+                    </div>
+                    <div class="milkshake-card">
+                        <img src="pics/download (1).jpeg" alt="Latte">
+                        <h3>Latte</h3>
+                        <span class="price">$5.00</span>
+                        <a href="#" class="buy-btn" data-order="Latte">ORDER NOW</a>
+                    </div>
+
+                    <div class="milkshake-card">
+                        <img src="pics/Download AI generated Cup of hot Flat White coffee on transparent background_ for free.jpeg" alt="Latte">
+                        <h3>Flat White</h3>
+                        <span class="price">$4.00</span>
+                        <a href="#" class="buy-btn" data-order="Latte">ORDER NOW</a>
+                    </div>
+
+                    <div class="milkshake-card">
+                        <img src="pics/Cortado Coffee_ The Perfect Blend of Espresso and Milk to Savor.jpeg" alt="Latte">
+                        <h3>Cortado</h3>
+                        <span class="price">$5.00</span>
+                        <a href="#" class="buy-btn" data-order="Latte">ORDER NOW</a>
+                    </div>
+
+                    <div class="milkshake-card">
+                        <img src="pics/Hot Caramel Macchiato.jpeg" alt="Latte">
+                        <h3>Macchiato</h3>
+                        <span class="price">$5.00</span>
+                        <a href="#" class="buy-btn" data-order="Latte">ORDER NOW</a>
+                    </div>
+
+                    <div class="milkshake-card">
+                        <img src="pics/download (6).jpeg" alt="Latte">
+                        <h3>Cafe au Lait</h3>
+                        <span class="price">$5.00</span>
+                        <a href="#" class="buy-btn" data-order="Latte">ORDER NOW</a>
+                    </div>
+                </section>
+
+                <section class="menu-items">
+                <div class="section-title">
+                    <h2>COLD DRINKS</h2>
+                </div>
+                <div class="category-grid">
+                    <div class="milkshake-card">
+                        <img src="pics/Salted Caramel Macchiato Magic.jpeg" alt="Iced Coffee">
+                        <h3>Iced Coffee</h3>
+                        <span class="price">$5.50</span>
+                        <a href="#" class="buy-btn" data-order="Iced Coffee">ORDER NOW</a>
+                    </div>
+                    <div class="milkshake-card">
+                        <img src="pics/Starbucks Mocha Frappuccino Copycat Recipe.jpeg" alt="Frappuccino">
+                        <h3>Frappuccino</h3>
+                        <span class="price">$6.50</span>
+                        <a href="#" class="buy-btn" data-order="Frappuccino">ORDER NOW</a>
+                    </div>
+                    <div class="milkshake-card">
+                        <img src="pics/Premium Photo _ A glass of iced coffee with ice cubes on top_.jpeg" alt="Cold Brew">
+                        <h3>Cold Brew</h3>
+                        <span class="price">$5.00</span>
+                        <a href="#" class="buy-btn" data-order="Cold Brew">ORDER NOW</a>
+                    </div>
+
+                    <div class="milkshake-card">
+                        <img src="pics/The Best and Easiest Affogato Recipe To Make At Home.jpeg" alt="Cold Brew">
+                        <h3>Affogato</h3>
+                        <span class="price">$5.00</span>
+                        <a href="#" class="buy-btn" data-order="Cold Brew">ORDER NOW</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Blog Page -->
+        <div class="page" id="blog-page">
+            <section class="blog-hero">
+                <div class="hero">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h2>COFFEE</h2>
+                            <h1>BLOG</h1>
+                        </div>
+                    </div>
+                    <div class="wave"></div>
+                </div>
+            </section>
+            
+            <section class="blogs-extended">
+                <div class="section-title">
+                    <h2>OUR COFFEE STORIES</h2>
+                </div>
+                <div class="blog-grid">
+                    <!-- Additional blog posts would go here -->
+                    <div class="blog-card">
+                        <img src="pics/Coffee Brewing.jpeg" alt="Coffee blog">
+                        <div class="blog-content">
+                            <h3>The Art of Coffee Brewing</h3>
+                            <p>Learn the secrets of brewing the perfect cup every time. Discover techniques from baristas around the world.</p>
+                            <a href="#" class="read-more">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="pics/Morning Coffee Bliss_ Simple Ways to Enjoy Freshly Roasted Coffee Beans in Nature.jpeg" alt="Coffee blog">
+                        <div class="blog-content">
+                            <h3>Coffee Bean Origins</h3>
+                            <p>Explore the diverse origins of coffee beans and how geography affects flavor profiles from Ethiopia to Colombia.</p>
+                            <a href="#" class="read-more">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Media Page -->
+        <div class="page" id="media-page">
+            <section class="media-hero">
+                <div class="hero">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h2>OUR</h2>
+                            <h1>GALLERY</h1>
+                        </div>
+                    </div>
+                    <div class="wave"></div>
+                </div>
+            </section>
+            
+            <section class="media-content">
+                <div class="section-title">
+                    <h2>COFFEE MOMENTS</h2>
+                </div>
+                <div class="media-grid">
+                    <!-- Images would go here -->
+                    <div class="media-item">
+                        <img src="pics/Ideas for a coffee shop.jpeg" alt="Coffee">
+                    </div>
+                    <div class="media-item">
+                        <img src="pics/download (2).jpeg" alt="Coffee">
+                    </div>
+                    <div class="media-item">
+                        <img src="pics/download (3).jpeg" alt="Coffee">
+                    </div>
+                    <div class="media-item">
+                        <img src="pics/download (4).jpeg" alt="Coffee">
+                    </div>
+                    <div class="media-item">
+                        <img src="pics/download (5).jpeg" alt="Coffee">
+                    </div>
+                    <div class="media-item">
+                        <img src="pics/Night view.jpeg" alt="Coffee">
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Contact Page -->
+        <div class="page" id="contact-page">
+            <section class="contact-hero">
+                <div class="hero">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h2>GET IN</h2>
+                            <h1>TOUCH</h1>
+                        </div>
+                    </div>
+                    <div class="wave"></div>
+                </div>
+            </section>
+            
+            <section class="contact-form">
+                <div class="section-title">
+                    <h2>CONTACT US</h2>
+                </div>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </section>
+        </div>
+        
+        <!-- Order Form Page -->
+        <div class="page" id="order-page">
+            <section class="order-hero">
+                <div class="hero">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h2>PLACE YOUR</h2>
+                            <h1>ORDER</h1>
+                        </div>
+                    </div>
+                    <div class="wave"></div>
+                </div>
+            </section>
+            
+            <section class="order-form">
+                <h2>Complete Your Order</h2>
+                <form id="order-form">
+                    <div class="form-row">
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="order-name">Name</label>
+                                <input type="text" id="order-name" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="order-email">Email</label>
+                                <input type="email" id="order-email" class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="order-item">Item</label>
+                                <input type="text" id="order-item" class="form-control" readonly>
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="order-quantity">Quantity</label>
+                                <input type="number" id="order-quantity" class="form-control" min="1" value="1" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="order-notes">Special Instructions</label>
+                        <textarea id="order-notes" class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="checkout-btn">Place Order</button>
+                </form>
+            </section>
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">Beans</a></li>
+                        <li><a href="#">New In</a></li>
+                        <li><a href="#">Weekly Pick</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Category</h3>
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Visit Here</a></li>
+                        <li><a href="#">Size Charts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company Info</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow us</h3>
+                    <div class="social-icons">
+                        <a href="#">📷</a>
+                        <a href="#">👍</a>
+                        <a href="#">📺</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="#">Data settings</a>
+                <a href="#">Cookie settings</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms And Conditions</a>
+                <a href="#">Imprint</a>
+            </div>
+        </footer>
+        
+        <!-- Login/Register Modal -->
+        <div class="modal" id="auth-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modal-title">Login</h2>
+                    <button class="close-btn">&times;</button>
+                </div>
+                <div class="modal-tabs">
+                    <div class="modal-tab active" data-tab="login">Login</div>
+                    <div class="modal-tab" data-tab="register">Register</div>
+                </div>
+                <div class="modal-body">
+                    <!-- Login Form -->
+                    <form id="login-form" class="auth-form active">
+                        <div class="form-group">
+                            <label for="login-email">Email</label>
+                            <input type="email" id="login-email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="login-password">Password</label>
+                            <input type="password" id="login-password" class="form-control" required>
+                        </div>
+                        <button type="submit" class="auth-btn">Login</button>
+                        <div class="form-footer">
+                            <p>Don't have an account? <a href="#" id="switch-to-register">Register</a></p>
+                        </div>
+                    </form>
+                    
+                    <!-- Register Form -->
+                    <form id="register-form" class="auth-form">
+                        <div class="form-group">
+                            <label for="register-name">Name</label>
+                            <input type="text" id="register-name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-email">Email</label>
+                            <input type="email" id="register-email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-password">Password</label>
+                            <input type="password" id="register-password" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-confirm-password">Confirm Password</label>
+                            <input type="password" id="register-confirm-password" class="form-control" required>
+                        </div>
+                        <button type="submit" class="auth-btn">Register</button>
+                        <div class="form-footer">
+                            <p>Already have an account? <a href="#" id="switch-to-login">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
